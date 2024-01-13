@@ -1,0 +1,2 @@
+# Pelican
+ Plugin for exiled
