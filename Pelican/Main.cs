@@ -1,6 +1,7 @@
 ﻿
 using Exiled.API.Features;
 using Exiled.CustomRoles.API.Features;
+using System;
 
 namespace Pelican
 {
@@ -9,6 +10,8 @@ namespace Pelican
         public static Main Plugin { get; private set; }
         public override string Author { get; } = "ShoulHate";
         public override string Name { get; } = "Pelican";
+        public override Version Version { get; } = new Version(1, 0, 0);
+        public override Version RequiredExiledVersion { get; } = new Version(8, 6, 0);
 
         public override void OnEnabled()
         {
